@@ -1,0 +1,74 @@
+body {
+    height: 100vh;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-family: "Inter", sans-serif;
+    line-height: 0.8;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    width: 90%;
+    max-width: 350px;
+    height: 680px;
+    background-color: #2A57D8;
+    border-radius: 50px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.square {
+    margin-top: 10px;
+    width: 300px;
+    height: 440px;
+    background-color: #2A57D8;
+    border: 1px solid #82A4F9;
+    border-radius: 25px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.parkingRates, .title {
+    margin-top: 30px;
+}
+
+.qrcode {
+    width: 224px;
+    height: 224px;
+}
+
+.details {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.deets {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.button {
+    margin-top: 20px;
+    background-color: #E3F1FF;
+    color: #424242;
+    width: 110px;
+    height: 36px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #ddd;
+}
